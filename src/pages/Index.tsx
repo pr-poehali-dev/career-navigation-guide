@@ -103,13 +103,12 @@ const Index = () => {
       <nav className="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-                <Icon name="Compass" className="text-white" size={24} />
-              </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Карьерный Компас
-              </span>
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/files/20e51eb9-ffed-4600-8107-4239b8721aee.png" 
+                alt="Карьерный Компас" 
+                className="h-12 w-auto"
+              />
             </div>
             <div className="hidden md:flex gap-6">
               <a href="#home" className="text-sm font-medium hover:text-primary transition-colors">Главная</a>
@@ -450,13 +449,12 @@ const Index = () => {
       <footer className="bg-gradient-to-br from-primary/10 to-secondary/10 py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-                <Icon name="Compass" className="text-white" size={24} />
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Карьерный Компас
-              </span>
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/files/20e51eb9-ffed-4600-8107-4239b8721aee.png" 
+                alt="Карьерный Компас" 
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm text-muted-foreground">© 2024 Все права защищены</p>
             <div className="flex gap-4">
